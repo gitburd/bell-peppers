@@ -4,10 +4,21 @@ body{
 }
 
 h1,h2{
-font-family: Trebuchet MS, Arial;
+font-family:'Fredericka the Great', Trebuchet MS, Arial;
 color: #ff5d05;
+font-size: 200%;
 }
 
+#peppers {
+ 
+    max-height: 400px;
+    object-fit: cover;
+    width: 90%;
+}
+
+#intro{
+    text-align:center;
+}
 
 p, li{
     font-family: 'Roboto', sans-serif;
@@ -15,24 +26,38 @@ p, li{
 }
 
 
-* {
-    box-sizing: border-box;
-  }
   
   /* Create two equal columns that floats next to each other */
   .column {
     float: left;
     width: 50%;
-    height: 300px; /* Should be removed. Only for demonstration */
   }
+  
+
+  .left {
+    float: left;
+    width: 50%;
+    margin-top: 40px;
+  }
+  
+  .right {
+    float: left;
+    width: 50%;
+    margin-left: 30px;
+}
+
   
   /* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;
     clear: both;
+    
   }
 
+/* 
+  google fonts:
 
-
-/* 'Righteous', */
+  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Josefin Sans', sans-serif; */
