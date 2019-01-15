@@ -1,0 +1,38 @@
+body{
+    background-color: antiquewhite;
+    margin: 20px;
+}
+
+h1,h2{
+font-family: Trebuchet MS, Arial;
+color: #ff5d05;
+}
+
+
+p, li{
+    font-family: 'Roboto', sans-serif;
+    color: green;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+/* 'Righteous', */
