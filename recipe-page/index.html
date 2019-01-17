@@ -7,6 +7,9 @@
     <title>Stuffed Bell Peppers</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Josefin+Sans:700|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" 
+              integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+        <link rel='stylesheet' href='https://d33wubrfki0l68.cloudfront.net/css/5e6f91a878743788a5e8f3d149a0af9fc8116150/bootstrap-hosting-github/exercises/grid/grid.css'/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 
@@ -22,6 +25,12 @@
             vegetarian or
             vegan really you can put anything you want inside your peppers so have fun and make something delicious!</p>
 
+
+            <button type="button"  onclick="like()" class="btn btn-default btn-lg"> 
+                <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"> </span> 
+              </button>
+
+              <h3 style= "display: inline; color: red" id="likes_counter"> 1</h3>
 
         <div class="row">
             <div class="column" style="margin-top: 35px" ;>
@@ -72,8 +81,6 @@
                 </ul>
 
 
-
-
             </div>
         </div>
         <!-- closes .row class -->
@@ -95,9 +102,12 @@
                 allowfullscreen></iframe>
             <footer>Thanks for visiting our site!</footer>
         </div>
+
     </div>
 
+    
 
+<script src="main.js"></script>
     <script async src="https://static.addtoany.com/menu/page.js"></script>
   <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -105,6 +115,8 @@
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+
+<!-- https://www.glyphicons.com/ -->
 
 </body>
 
